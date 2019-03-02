@@ -479,9 +479,9 @@ function run(pc) {
             } else {
                 cpu.stepCycles(step);
             }
-	    if (vm.blit()) {
-		renderedFrames++;
-	    }
+            if (vm.blit()) {
+                renderedFrames++;
+            }
             io.tick();
         }
 
