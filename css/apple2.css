@@ -605,6 +605,8 @@ button:focus {
     background-color: white;
     color: black;
     font-family: monospace;
+}
+
 .copyright {
     text-align: center;
     font-style: italic;
